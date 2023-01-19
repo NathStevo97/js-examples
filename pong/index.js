@@ -37,7 +37,7 @@ class Ball {
     constructor({position}) {
         this.position = position
 
-        const speed = 4
+        const speed = 6
 
         const direction = {
             x: Math.random() - 0.5 >= 0 ? -speed: speed, // Math returns a random float between 0 and 1 - use this with the true/false condition to determine x direction
@@ -47,8 +47,8 @@ class Ball {
             x: direction.x,
             y: direction.y,
         }
-        this.width = 10
-        this.height = 10
+        this.width = 20
+        this.height = 20
     }
     
     draw() {
