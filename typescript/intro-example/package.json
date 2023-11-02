@@ -1,0 +1,12 @@
+{
+  "name": "intro-example",
+  "version": "1.0.0",
+  "description": "The following code was written following this [Tech with Tim Tutorial](https://www.youtube.com/watch?v=cDeTUYkaEkg&list=PLFHudDXMMrcawIE5TWDvTVmZeTbucfdqK&index=37&t=110s) to provide an introduction to Typescript.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC"
+}
